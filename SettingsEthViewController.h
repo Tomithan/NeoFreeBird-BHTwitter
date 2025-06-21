@@ -1,5 +1,5 @@
 //
-//  SettingsViewController.h
+//  SettingsEthViewController.h
 //  FlexCrack
 //
 //  Created by BandarHelal on 25/11/2021.
@@ -16,7 +16,7 @@ typedef NS_ENUM(NSInteger, DynamicSpecifierOperatorType) {
   LessThanOperatorType,
 };
 
-@interface SettingsViewController : HBListController
+@interface SettingsEthViewController : HBListController
 - (instancetype)initWithTwitterAccount:(TFNTwitterAccount *)account;
 @end
 

@@ -1,5 +1,5 @@
 //
-//  SettingsViewController.m
+//  SettingsEthViewController.m
 //  NeoFreeBird
 //
 //  Created by BandarHelal
@@ -7,7 +7,7 @@
 //
 
 
-#import "SettingsViewController.h"
+#import "SettingsEthViewController.h"
 #import "BHTBundle/BHTBundle.h"
 #import "Colours/Colours.h"
 #import "AppIcon/BHAppIconViewController.h"
@@ -54,13 +54,13 @@ static UIFont *TwitterChirpFont(TwitterFontStyle style) {
     }
 }
 
-@interface SettingsViewController () <UIFontPickerViewControllerDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate, UIColorPickerViewControllerDelegate>
+@interface SettingsEthViewController () <UIFontPickerViewControllerDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate, UIColorPickerViewControllerDelegate>
 @property (nonatomic, strong) TFNTwitterAccount *twAccount;
 @property (nonatomic, assign) BOOL hasDynamicSpecifiers;
 @property (nonatomic, retain) NSMutableDictionary *dynamicSpecifiers;
 @end
 
-@implementation SettingsViewController
+@implementation SettingsEthViewController
 
 #pragma mark - UITableView Setup
 - (instancetype)init {
