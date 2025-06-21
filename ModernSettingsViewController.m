@@ -1,7 +1,7 @@
 #import "ModernSettingsViewController.h"
 #import "BHTBundle/BHTBundle.h"
 #import "BHDimPalette.h"
-#import "SettingsViewController.h"
+#import "SettingsEthViewController.h"
 
 // Forward declare full interface so compiler knows the class and its init method
 @class TFNTwitterAccount;
