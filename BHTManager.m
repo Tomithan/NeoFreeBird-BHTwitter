@@ -343,7 +343,7 @@
         ModernSettingsViewController *modernSettings = [[ModernSettingsViewController alloc] initWithAccount:twAccount];
         return modernSettings;
     } else {
-    SettingsViewController *pref = [[SettingsViewController alloc] initWithTwitterAccount:twAccount];
+    SettingsEthViewController *pref = [[SettingsEthViewController alloc] initWithTwitterAccount:twAccount];
     return pref;
     }
 }
